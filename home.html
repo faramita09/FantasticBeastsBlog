@@ -1,0 +1,264 @@
+<!DOCTYPE html>
+<html lang="en">
+<html>
+<title>Fantastic Beast Blog</title>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<LINK REL="SHORTCUT ICON" HREF="boo.png">
+<link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Raleway">
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"></script>
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"></script>
+
+<style>
+    .w3-sidebar a {
+        font-family: "Raleway", sans-serif
+    }
+    
+    body,
+    h1,
+    h2,
+    h3,
+    h4,
+    h5,
+    h6,
+    .w3-wide {
+        font-family: "Raleway", sans-serif
+    }
+    
+    .w3-bar-block .w3-bar-item {
+        padding: 20px
+    }
+</style>
+
+<head>
+    <!-- Sidebar (reveals when clicked on menu icon)-->
+    <nav class="w3-sidebar w3-black w3-animate-left w3-xxlarge" style="display:none;padding-top:150px;left:0;z-index:2" id="mySidebar">
+        <a href="javascript:void(0)" onclick="closeNav()" class="w3-button w3-black w3-xxxlarge w3-display-topleft" style="padding:0 12px;">
+            <i class="fa fa-remove"></i>
+            <div class="w3-bar-block w3-center">
+                <a href="home.html" class="w3-bar-item w3-button w3-text-grey w3-hover-black " onclick="closeNav() ">หน้าหลัก</a>
+                <a href="story.html " class="w3-bar-item w3-button w3-text-grey w3-hover-black " onclick="closeNav() ">เรื่องย่อ</a>
+                <a href="char1.html " class="w3-bar-item w3-button w3-text-grey w3-hover-black " onclick="closeNav() ">ตัวละคร</a>
+                <a href="movie.html " class="w3-bar-item w3-button w3-text-grey w3-hover-black " onclick="closeNav() ">ภาพยนต์</a>
+                <a href="game/indexh.php " class="w3-bar-item w3-button w3-text-grey w3-hover-black " onclick="closeNav() ">เกมส์</a>
+                <a href="webboard/webboard.php " class="w3-bar-item w3-button w3-text-grey w3-hover-black " onclick="closeNav() ">บอร์ด</a>
+            </div>
+    </nav>
+
+    <!-- Top menu -->
+    <div class="w3-top ">
+        <div class=" w3-xlarge " style="max-width:1200px;margin:auto ">
+            <div class="w3-button w3-text-white w3-padding-16 " onclick="openNav() ">☰</div>
+            <div class="w3-button w3-text-white w3-padding-16 w3-right ">
+                <a href="Webboard/login.php " class="w3-button w3-text-white ">Login</a>
+                <a href="Webboard/register.php" class="w3-button w3-text-white ">Register </a>
+            </div>
+        </div>
+    </div>
+</head>
+<!-- Header -->
+<div class="w3-display-container w3-content w3-wide " style="max-width:1600px;min-width:500px " id="home ">
+    <img class="w3-image " src="images/bg9.jpg " alt="home " width="1600 " height="800 ">
+    <div class="w3-display-middle w3-text-white w3-jumbo ">
+        <p><b>Fantastic Beast Blog </b> </p>
+        <hr class="w3-border-grey " style="margin:auto;width:40% ">
+    </div>
+</div>
+</header>
+
+<body>
+
+
+    <!-- About section -->
+    <div class="w3-container w3-dark-grey w3-center w3-text-light-grey w3-padding-32 ">
+
+        <!-- story -->
+        <div class="w3-row w3-padding-64 ">
+            <div class="w3-col m6 w3-padding-large w3-hide-small ">
+                <img src="images/mj.jpg " class="w3-round w3-image w3-opacity-min " alt="Table Setting " width="750 " height="750 ">
+            </div>
+
+            <div class="w3-col m6 w3-padding-large ">
+                <h1 class="w3-center ">เรื่องราว</h1><br>
+                <hr class="w3-border-grey " style="margin:auto;width:40% "><br>
+                <h5 class="w3-center ">ในปี ค.ศ. 1926 </h5><br>
+                <p class="w3-large ">นิวท์ สคามันเดอร์ นักสัตว์วิเศษวิทยาชาวอังกฤษเดินทางมาที่สหรัฐอเมริกา เพื่อไปยังรัฐแอริโซนา เขาพบกับแมรี ลู แบร์โบน มักเกิ้ลผู้เป็นหัวหน้ากลุ่มการกุศลเซเลมที่สองที่เชื่อว่าผู้วิเศษมีอยู่จริงและเป็นอันตราย ระหว่างนั้น นิฟเฟลอร์ สัตว์วิเศษในกระเป๋าของนิวท์ได้หลุดออกมา
+                    ทำให้เขาต้องตามจับแต่พลาดสลับกระเป๋ากับเจคอบ โควัลสกี มักเกิ้ลผู้มีความใฝ่ฝันอยากเปิดร้านขายขนมปัง นิวท์ถูกทินา โกลด์สตีน อดีตมือปราบมารที่เห็นเหตุการณ์ทั้งหมดจับตัวและพาไปยังสภาเวทมนตร์แห่งสหรัฐอเมริกา (MACUSA) ขณะเดียวกัน เจคอบที่ถือกระเป๋าของนิวท์ไปถูกเมิร์ตแลป
+                    สัตว์วิเศษชนิดหนึ่งในกระเป๋าทำร้ายและทำให้สัตว์วิเศษตัวอื่น ๆ หลุดออกมา...</p>
+                <a href="story.html " class="w3-button w3-light-gray ">Detail</a></p>
+            </div>
+        </div>
+
+        <!-- movie -->
+        <div class="w3-row w3-padding-64 ">
+            <div class="w3-col l6 w3-padding-large ">
+                <h1 class="w3-center ">ภาพยนต์</h1>
+                <br>
+                <hr class="w3-border-grey " style="margin:auto;width:40% "><br>
+                <h4>
+                    <p class="w3-text-white ">Fantastic Beasts and Where to Find Them </p>
+                </h4>
+                <p class="w3-text-grey ">สัตว์มหัศจรรย์และถิ่นที่อยู่</p>
+                <h4>
+                    <p class="w3-text-white ">Fantastic Beasts The Crimes of Grindelwald</p>
+                </h4>
+                <p class="w3-text-grey ">อาชญากรรมของกรินเดลวัลด์</p>
+                <p>
+                    <a href="movie.html " class="w3-button w3-light-gray">Find Them </a></p>
+            </div>
+
+            <div class="w3-col l6 w3-padding-large ">
+                <img src="images/gg.jpg " class="w3-round w3-image w3-opacity-min " alt="Menu " style="width:100% ">
+            </div>
+        </div>
+
+
+        <!-- character -->
+        <div class="w3-container w3-center w3-dark-grey " style="padding:128px 16px " id="pricing ">
+            <h1>ตัวละคร</h1>
+            <p class="w3-large ">เหล่าพ่อมด-แม่มด</p><br>
+            <hr class="w3-border-grey " style="margin:auto;width:40% "><br>
+            <div class="w3-row-padding " style="margin-top:64px ">
+                <div class="w3-third w3-section ">
+                    <ul class="w3-ul w3-black w3-hover-shadow ">
+                        <img src="images/ne.jpg " alt="newt " style="width:100% ">
+                        <li class="w3-padding-16 ">
+                            <hr class="w3-border-grey " style="margin:auto;width:40% ">
+                            <p><a href="char1.html " class="w3-button w3-black ">นิวท์ สคามันเดอร์</a></p>
+                        </li>
+                    </ul>
+                </div>
+                <div class="w3-third w3-section ">
+                    <ul class="w3-ul w3-black w3-hover-shadow ">
+                        <img src="images/ge.jpg " alt="gellert " style="width:100% ">
+                        <li class="w3-padding-16 ">
+                            <hr class="w3-border-grey " style="margin:auto;width:40% ">
+                            <p><a href="char2.html " class="w3-button w3-black ">เกลเลิร์ต กรินเดลวัลด์</a></p>
+                        </li>
+                    </ul>
+                </div>
+                <div class="w3-third w3-section ">
+                    <ul class="w3-ul w3-black w3-hover-shadow ">
+                        <img src="images/le.jpg " alt="leta " style="width:100% ">
+                        <li class="w3-padding-16 ">
+                            <hr class="w3-border-grey " style="margin:auto;width:40% ">
+                            <p><a href="char3.html " class="w3-button w3-black ">ลีตา เลสแตรงจ์</a></p>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+
+
+
+        <!-- board talk-->
+        <div class="w3-jumbotron w3-text-center w3-dark-grey " style="width:100% ">
+
+            <div id="slides" class="carousel slide" data-ride="carousel">
+
+                <!-- Indicators -->
+                <ul class="carousel-indicators">
+                    <li data-target="#slides" data-slide-to="0" class="active"></li>
+                    <li data-target="#slides" data-slide-to="1"></li>
+                    <li data-target="#slides" data-slide-to="2"></li>
+                </ul>
+
+                <!-- The slideshow -->
+                <div class="carousel-inner">
+                    <div class="carousel-item active">
+                        <img src="images/bg2.jpg" alt="slideshow1" width="1280" height="720">
+                    </div>
+                    <div class="carousel-item">
+                        <img src="images/lg.jpg" alt="slideshow2" width="1280" height="720">
+                    </div>
+                    <div class="carousel-item">
+                        <img src="images/bg8.jpg" alt="slideshow3" width="1280" height="720">
+                    </div>
+                    <div class="carousel-item">
+                        <img src="images/880419.jpg" alt="slideshow4" width="1280" height="720">
+                    </div>
+                    <div class="carousel-item">
+                        <img src="images/880919.jpg" alt="slideshow5" width="1280" height="720">
+                    </div>
+                    <div class="carousel-item">
+                        <img src="images/880394.jpg" alt="slideshow6" width="1280" height="720">
+                    </div>
+                    <div class="carousel-item">
+                        <img src="images/a.jpg" alt="slideshow7" width="1280" height="720">
+                    </div>
+                    <div class="carousel-item">
+                        <img src="images/bg6.jpg" alt="slideshow8" width="1280" height="720">
+                    </div>
+                </div>
+
+                <!-- Left and right controls -->
+                <a class="carousel-control-prev" href="#slides" data-slide="prev">
+                    <span class="carousel-control-prev-icon"></span>
+                </a>
+                <a class="carousel-control-next" href="#slides" data-slide="next">
+                    <span class="carousel-control-next-icon"></span>
+                </a>
+            </div>
+            <div class="w3-dark-grey w3-padding-16 " width="1280" height="720">
+                <h3> สภาเวทมนต์ </h3><br>
+                <hr class="w3-border-grey " style="margin:auto;width:40% "><br>
+                <p><a href="Webboard/webboard.php" class="w3-button w3-light-gray ">พูดคุย </a>
+                    <a href="game/indexh.php" class="w3-button w3-light-gray">เกมส์</a></p>
+            </div>
+        </div>
+    </div>
+    </div>
+
+    <!-- wizard  -->
+    <div class="w3-container w3-dark-grey w3-center ">
+        <div class="w3-row w3-padding-64 ">
+            </a>
+            <div class="w3-col m6 w3-padding-large w3-hide-small ">
+                <a href="https://www.warnerbros.com/movies/fantastic-beasts-crimes-grindelwald/ ">
+                    <img src="images/nn.jpg " class="w3-round w3-image w3-opacity-min " width="750 " height="750 ">
+                </a>
+            </div>
+
+
+            <!-- Hide this text on small devices -->
+            <div class="w3-col m6 w3-hide-small w3-dark-grey w3-display-middlew3-padding-large ">
+                <h3><span class="w3-tag w3-light-grey ">Quote</span></h3>
+                <div class="w3-panel w3-leftbar w3-light-grey ">
+                    <h5>"People change after a while, and they 're no longer who you once knew."</h5>
+                    <p class="w3-text-grey">กาลเวลาเปลี่ยนคนเราก็เปลี่ยน และพวกเขาก็ไม่ใช่คนที่คุณเคยรู้จักอีกต่อไป.</p>
+                    <p> - นิวท์ สคามันเดอร์ -</p><br>
+                </div>
+                <div class="w3-panel w3-leftbar w3-light-grey">
+                    <h5>"You fail to recognize that it matters not what someone is born, but what they grow to be."</h5>
+                    <p class="w3-text-grey">"คุณล้มเหลวที่จะตระหนักว่า ใครจะเกิดมาเป็นอะไรไม่ใช่เรื่องสำคัญ สิ่งที่สำคัญคือเขาคนนั้นจะเติบโตขึ้นเป็นใคร."</p>
+                    <p> - อัลบัส ดัมเบิลดอร์ -</p><br>
+                </div>
+            </div>
+        </div>
+        <!-- End page content -->
+    </div>
+
+    <!-- Footer -->
+    <footer class="w3-container w3-dark-grey w3-padding-32 w3-center">
+        <p>All rights reserved&copy;- WIZARD WORLD : <a href="about.html" target="_blank">THE GOD JBF</a></p>
+
+    </footer>
+</body>
+
+<!-- Open and close sidebar -->
+<script>
+    function openNav() {
+        document.getElementById("mySidebar").style.width = "60%";
+        document.getElementById("mySidebar").style.display = "block";
+    }
+
+    function closeNav() {
+        document.getElementById("mySidebar").style.display = "none";
+    }
+</script>
+
+</html>

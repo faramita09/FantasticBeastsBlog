@@ -1,0 +1,130 @@
+<!DOCTYPE html>
+<html>
+<title>Fantastic Beast Blog</title>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<LINK REL="SHORTCUT ICON" HREF="boo.png">
+<link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Raleway">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+<style>
+    body,
+    h1,
+    h5 {
+        font-family: "Raleway", sans-serif
+    }
+    
+    body,
+    html {
+        height: 100%
+    }
+    
+    .bgimg {
+        background-image: url('images/3.jpg');
+        min-height: 100%;
+        background-position: center;
+        background-size: cover;
+    }
+    
+    .w3-bar-block .w3-bar-item {
+        padding: 20px
+    }
+</style>
+
+<head>
+    <!-- Sidebar (reveals when clicked on menu icon)-->
+    <nav class="w3-sidebar w3-black w3-animate-left w3-xxlarge" style="display:none;padding-top:150px;left:0;z-index:2" id="mySidebar">
+        <a href="javascript:void(0)" onclick="closeNav()" class="w3-button w3-black w3-xxxlarge w3-display-topleft" style="padding:0 12px;">
+            <i class="fa fa-remove"></i>
+            <div class="w3-bar-block w3-center">
+                <a href="home.html" class="w3-bar-item w3-button w3-text-grey w3-hover-black" onclick="closeNav()">หน้าหลัก</a>
+                <a href="story.html" class="w3-bar-item w3-button w3-text-grey w3-hover-black" onclick="closeNav()">เรื่องย่อ</a>
+                <a href="char1.html" class="w3-bar-item w3-button w3-text-grey w3-hover-black" onclick="closeNav()">ตัวละคร</a>
+                <a href="movie.html" class="w3-bar-item w3-button w3-text-grey w3-hover-black" onclick="closeNav()">ภาพยนต์</a>
+                <a href="game/indexh.php" class="w3-bar-item w3-button w3-text-grey w3-hover-black" onclick="closeNav()">คำถาม</a>
+                <a href="Webboard/webboard.php" class="w3-bar-item w3-button w3-text-grey w3-hover-black" onclick="closeNav()">บอร์ด</a>
+            </div>
+    </nav>
+
+    <!-- Top menu -->
+    <div class="w3-top">
+        <div class=" w3-xlarge" style="max-width:1200px;margin:auto">
+            <div class="w3-button w3-text-white w3-padding-16 " onclick="openNav()">☰</div>
+
+        </div>
+    </div>
+</head>
+
+<!-- content -->
+
+<body>
+    <div class="bgimg w3-display-container w3-text-white">
+        <div class="w3-display-middle w3-jumbo">
+            <p>Fantastic Beast Blog</p>
+        </div>
+    </div>
+
+    <!-- Team Section -->
+    <div class="w3-container w3-dark-grey" style="padding:120px 120px">
+        <h3 class="w3-center">THE TEAM</h3>
+        <p class="w3-center w3-large">THE GOD OF JBF</p>
+        <div class=" w3-row-padding w3-content-center  " style="padding:120px 10px">
+            <div class="w3-col l3 m6 w3-margin-bottom">
+                <div class="w3-card">
+                    <img src="images/j.jpg" alt="J" style="width:100%">
+                    <div class="w3-container">
+                        <h3>Jaiy</h3>
+                        <p class="w3-opacity">Nithiwat Thanasrisawat</p>
+                        <p>61102010147</p>
+                        <p>nithiwat.thanasrisawart@g.swu.ac.th</p>
+                        <p><button class="w3-button w3-light-grey w3-block"><i class="fa fa-envelope"><a href=mailto:nithiwat.thanasrisawart@g.swu.ac.th subject="HTML link">Contact</a></i></button></p>
+                    </div>
+                </div>
+            </div>
+            <div class="w3-col l3 m6 w3-margin-bottom">
+                <div class="w3-card">
+                    <img src="images/b.jpg" alt="B" style="width:100%">
+                    <div class="w3-container">
+                        <h3>Bew</h3>
+                        <p class="w3-opacity">Surirat Yutthasuntorn</p>
+                        <p>61102010429</p>
+                        <p>surirat.yut@g.swu.ac.th</p>
+                        <p><button class="w3-button w3-light-grey w3-block"><i class="fa fa-envelope"><a href=mailto:surirat.yut@g.swu.ac.th subject="HTML link">Contact</a></i></button></p>
+                    </div>
+                </div>
+            </div>
+            <div class="w3-col l3 m6 w3-margin-bottom">
+                <div class="w3-card">
+                    <img src="images/f.jpg" alt="F" style="width:100%">
+                    <div class="w3-container">
+                        <h3>Far</h3>
+                        <p class="w3-opacity">Amita Roma</p>
+                        <p>61102010430</p>
+                        <p>amita.roma@g.swu.ac.th</p>
+                        <p><button class="w3-button w3-light-grey w3-block"><i class="fa fa-envelope"><a href=mailto:amita.roma@g.swu.ac.th subject="HTML link">Contact</a></i></button></p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+
+    <!-- Footer -->
+    <footer class="w3-container w3-dark-grey w3-padding-32 w3-center">
+        <p>All rights reserved&copy;- WIZARD WORLD : <a href="about.html" target="_blank">THE GOD JBF</a></p>
+    </footer>
+</body>
+
+<!-- Open and close sidebar -->
+<script>
+    function openNav() {
+        document.getElementById("mySidebar").style.width = "60%";
+        document.getElementById("mySidebar").style.display = "block";
+    }
+
+    function closeNav() {
+        document.getElementById("mySidebar").style.display = "none";
+    }
+</script>
+
+</html>

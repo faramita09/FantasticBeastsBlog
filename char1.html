@@ -1,0 +1,198 @@
+<!DOCTYPE html>
+<html>
+<title>Fantastic Beast Blog</title>
+</title>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<LINK REL="SHORTCUT ICON" HREF="boo.png">
+<link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Raleway">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+
+<style type="text/css">
+    body,
+    h1,
+    h2,
+    h3,
+    h4,
+    h5,
+    h6 {
+        font-family: "Raleway", sans-serif
+    }
+    
+    iframe {
+        height: 550px;
+        display: block;
+    }
+    
+    body {
+        background: url(images/bg.jpg) no-repeat center center fixed;
+        -webkit-background-size: cover;
+        -moz-background-size: cover;
+        -o-background-size: cover;
+        background-size: cover;
+    }
+    
+    .w3-bar-block .w3-bar-item {
+        padding: 20px
+    }
+    
+    .showmore {
+        font-size: 1.1em;
+        margin-top: 1.5em;
+    }
+    
+    .showmore .more,
+    .showmore.show .dots {
+        display: none
+    }
+    
+    .showmore.show .more {
+        display: inline
+    }
+    
+    .showmore a {
+        cursor: pointer;
+        display: block;
+        margin-top: 0.5em;
+        margin-bottom: 1em;
+        font-weight: bold;
+    }
+</style>
+
+<body class="w3-light-grey w3-content" style="max-width:1600px">
+
+    <head>
+        <!-- Sidebar (reveals when clicked on menu icon)-->
+        <nav class="w3-sidebar w3-black w3-animate-left w3-xxlarge" style="display:none;padding-top:150px;left:0;z-index:2" id="mySidebar">
+            <a href="javascript:void(0)" onclick="closeNav()" class="w3-button w3-black w3-xxxlarge w3-display-topleft" style="padding:0 12px;">
+                <i class="fa fa-remove"></i>
+                <div class="w3-bar-block w3-center">
+                    <a href="home.html" class="w3-bar-item w3-button w3-text-grey w3-hover-black" onclick="closeNav()">หน้าหลัก</a>
+                    <a href="story.html" class="w3-bar-item w3-button w3-text-grey w3-hover-black" onclick="closeNav()">เรื่องย่อ</a>
+                    <a href="char1.html" class="w3-bar-item w3-button w3-text-grey w3-hover-black" onclick="closeNav()">ตัวละคร</a>
+                    <a href="movie.html" class="w3-bar-item w3-button w3-text-grey w3-hover-black" onclick="closeNav()">ภาพยนต์</a>
+                    <a href="game/indexh.php" class="w3-bar-item w3-button w3-text-grey w3-hover-black" onclick="closeNav()">คำถาม</a>
+                    <a href="Webboard/webboard.php"class="w3-bar-item w3-button w3-text-grey w3-hover-black" onclick="closeNav()">บอร์ด</a>
+                </div>
+        </nav>
+
+        <!-- Top menu -->
+        <div class="w3-top">
+            <div class=" w3-xlarge" style="max-width:1200px;margin:auto">
+                <div class="w3-button w3-text-black w3-padding-16 " onclick="openNav()">☰</div>
+
+            </div>
+        </div>
+    </head>
+
+    <!-- !PAGE CONTENT! -->
+    <div class="w3-container" style="padding:128px 128px">
+
+        <!-- First Photo Grid-->
+        <h1 class="w3-jumbo w3-center"><b>Fantastic Beast Character</h1>
+            <div class="w3-row-padding w3-grayscale" style="margin-top:64px">
+                <div class="w3-col l3 m6 w3-margin-bottom">
+                    <div class="w3-card">
+                        <img src="images/newt.jpg" alt="newt" style="width:100%">
+                        <div class="w3-black w3-opacity w3-hover-opacity-off w3-padding-large w3-round-large">
+                            <h3>นิวท์ สคามันเดอร์</h3>
+                            <p class="w3-opacity">เอ็ดดี เรดเมย์น</p>
+                            <p class="showmore">นิวท์ สคามันเดอร์ นักสัตว์วิเศษวิทยาผู้ปราดเปรื่อง<span class="dots">...</span><span class="more"> 
+                                    เป็นพ่อมดที่กล้าหาญและรอบรู้ผู้มีส่วนสำคัญในการจับกุมพ่อมดมืดชื่อกระฉ่อน เกลเลิร์ต กรินเดลวัลด์ ระหว่างที่เขาไปเยือนนิวยอร์กเมื่อไม่นานมานี้ นับแต่นั้นมาหนังสือของนิวท์ที่ชื่อ
+                                สัตว์มหัศจรรย์และถิ่นที่อยู่ ก็กลายเป็นหนังสือขายดีจนฉุดไม่อยู่และนำมาซึ่งชื่อเสียงที่เขาไม่ต้องการ เขาอยากใช้ชีวิตเงียบๆ เพื่อทำงานสำคัญในชีวิตของเขา นั่นก็คือการศึกษา ช่วยเหลือ และดูแลสัตว์วิเศษ ทว่าอาจารย์เก่าและเพื่อนของเขา
+                                อัลบัส ดัมเบิลดอร์ ได้เสนอให้เขาทำงานอีกงานหนึ่ง ภารกิจครั้งนี้จะนำเขากลับไปพบกับกรินเดลวัลด์ผู้อันตรายและทรงพลังยิ่งกว่าเดิม</span>
+                                <a>Show More</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="w3-col l3 m6 w3-margin-bottom ">
+                    <div class="w3-card">
+                        <img src="images/tina.jpg" alt="tina" style="width:100%">
+                        <div class="w3-black w3-opacity w3-hover-opacity-off w3-padding-large w3-round-large">
+                            <h3>ทีน่า โกลด์สตีน </h3>
+                            <p class="w3-opacity">แคทเธอรีน วอเตอร์สตัน</p>
+                            <p class="showmore">ทีน่า โกลด์สตีน ได้รับการแต่งตั้งให้กลับมารับตำแหน่งเป็นมือปราบมารที่ MACUSA (สภาเวทมนตร์แห่งสหรัฐอเมริกา) <span class="dots">...</span><span class="more"> 
+                             แม้เธอยังคงทุ่มเทให้งานด้านการบังคับใช้กฎหมายเวทมนตร์ แต่เธอก็ไม่ได้สูญเสียความเป็นอิสระของตัวเองไป ทีน่าออกจากนิวยอร์กไปยังปารีสเพื่อดำเนินการสืบสวนเหตุการณ์ลึกลับซับซ้อนด้วยตัวเองโดยไม่ได้รับอนุญาต
+                                เธอรู้ว่าเครเดนซ์รอดพ้นจากการถูกกำจัดโดย MACUSA ในนิวยอร์ก แต่เธอก็รู้ด้วยว่า เนื่องจากเขาเป็นออบสคูเรียล เขาจึงเป็นภัยคุกคามต่อชุมชนเวทมนตร์และตกอยู่ในอันตรายร้ายแรง ด้วยการใช้ทักษะทั้งหมดที่มี ในที่สุดเธอก็เข้าประชิดตัวเครเดนซ์ได้
+                                แต่การติดตามอันเสี่ยงภัยได้นำเธอไปปะทะกับพลังอำนาจอื่นๆ ที่กำลังไล่ล่าเครเดนซ์อยู่ </span>
+                                <a>Show More</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="w3-col l3 m6 w3-margin-bottom  ">
+                    <div class="w3-card">
+                        <img src="images/queenie.jpg" alt="queenie" style="width:100%">
+                        <div class="w3-black w3-opacity w3-hover-opacity-off w3-padding-large w3-round-large">
+                            <h3>ควีนนี่ โกลด์สตีน </h3>
+                            <p class="w3-opacity">อลิสัน ซูดอล</p>
+                            <p class="showmore">ควีนนี่ โกลด์สตีน เป็นแม่มดผู้รักอิสระที่เป็นเลกจิลิเมนส์ <span class="dots">...</span><span class="more"> 
+                                    หมายความว่าเธออ่านใจคนได้ซึ่งก็เป็นทั้งการได้รับพรและการต้องคำสาป ควีนนี่ตกหลุมรักเจค็อบ โควัลสกี คนทำขนมที่เป็นโน-แมจ แม้ว่าในโลกเวทมนตร์มีกฎห้ามความสัมพันธ์ลักษณะดังกล่าวและความสัมพันธ์นี้ก็ทำให้เกิดรอยร้าวขึ้นระหว่างเธอกับพี่สาว
+                                    ทีน่า ด้วยเจตนาที่จะหาหนทางให้เธอและเจค็อบได้มาอยู่ด้วยกัน เธอจึงใช้เวทมนตร์พาเจค็อบมายังอังกฤษซึ่งมีกฎหมายเวทมนตร์ที่ผ่อนปรนกว่าโดยที่เขาไม่รู้อิโหน่อิเหน่ ทว่าอุบายครั้งนี้กลับส่งผลร้ายจนเป็นอันตรายต่อความสัมพันธ์ที่กำลังเติบโต
+                                    ทิ้งให้ควีนนี่ตกอยู่ในสภาพท้อแท้สิ้นหวัง และอ่อนแอต่อการถูกโจมตี </span>
+                                <a>Show More</a>
+                              </p>
+                        </div>
+                    </div>
+                </div>
+                <div class="w3-col l3 m6 w3-margin-bottom  ">
+                    <div class="w3-card">
+                        <img src="images/jacob.jpg" alt="jacob" style="width:100%">
+                        <div class="w3-black w3-opacity w3-hover-opacity-off w3-padding-large w3-round-large">
+                            <h3>เจคอบ โควัลสกี้ </h3>
+                            <p class="w3-opacity">แดน โฟเกลอร์</p>
+                            <p class="showmore">เจคอบ โควัลสกี เป็นโน-แมจ ผู้หลงรักการทำขนมและหลงรักควีนนี่ โกลด์สตีน <span class="dots">...</span><span class="more"> 
+                                    โดยไม่แน่ว่าอย่างไหนมาก่อนมาหลัง แต่เขารู้ว่ากฎของโลกเวทมนตร์ทำให้ความสัมพันธ์ของทั้งสองเป็นสิ่งต้องห้าม แม้ว่าเจค็อบเองก็ปรารถนาที่จะได้อยู่กับควีนนี่เช่นกัน
+                                    แต่เขาก็ไม่พอใจนักที่จู่ๆ เขาก็มาโผล่ที่อังกฤษโดยจำไม่ได้ว่าตัวเองมาได้อย่างไร แถมยังได้มารู้ว่าควีนนี่ใช้เวทมนตร์จัดการเรื่องนี้ด้วยตัวเอง ในเมื่อควีนนี่อ่านใจเขาได้ ความคิดในใจเขาก็เพียงพอแล้วที่จะทำให้ควีนนี่ต้องเสียน้ำตาแม้เขาจะไม่ได้พูดออกมาก็ตาม
+                                    และเขาก็จำเป็นต้องขอความช่วยเหลือจากนิวท์ สคามันเดอร์ให้ออกตามหาเธอ แม้จะกังวลเรื่องควีนนี่ 
+                                    แต่เจค็อบก็ยินดีที่ได้กลับมาพบเพื่อนอย่างนิวท์และร่วมการผจญภัยครั้งใหม่ในโลกเวทมนตร์ </span>
+                                <a>Show More</a>
+                              </p>
+                              
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        
+        <!-- Pagination -->
+        
+        <div class="w3-center w3-padding-32">
+            <div class="w3-bar">
+                <a  class="w3-bar-item w3-button w3-hover-white">«</a>
+                <a href="char1.html" class="w3-bar-item w3-white w3-button">1</a>
+                <a href="char2.html" class="w3-bar-item w3-button w3-hover-white">2</a>
+                <a href="char3.html" class="w3-bar-item w3-button w3-hover-white">»</a>
+            </div>
+        </div>
+
+    </div>
+<!-- Footer -->
+<footer class="w3-container w3-padding-32 w3-center w3-text-white "">
+                <p>All rights reserved&copy;- WIZARD WORLD : <a href="about.html" target="_blank">THE GOD JBF</a></p>
+            </footer>
+
+</body>
+<!-- read more-->
+<script>
+       document.querySelectorAll(".showmore").forEach(function (p) {
+  p.querySelector("a").addEventListener("click", function () {
+    p.classList.toggle("show");
+    this.textContent = p.classList.contains("show") ? "Show Less" : "Show More";
+  });
+});
+        </script>
+<!-- Open and close sidebar -->
+<script>
+        function openNav() {
+            document.getElementById("mySidebar").style.width = "60%";
+            document.getElementById("mySidebar").style.display = "block";
+        }
+    
+        function closeNav() {
+            document.getElementById("mySidebar").style.display = "none";
+        }
+    </script>
+    
+
+</html>

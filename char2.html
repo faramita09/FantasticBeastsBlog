@@ -1,0 +1,202 @@
+<!DOCTYPE html>
+<html>
+<title>Fantastic Beast Blog</title>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<LINK REL="SHORTCUT ICON" HREF="boo.png">
+<link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Raleway">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+<style>
+    body,
+    h1,
+    h2,
+    h3,
+    h4,
+    h5,
+    h6 {
+        font-family: "Raleway", sans-serif
+    }
+    
+    .w3-bar-block .w3-bar-item {
+        padding: 20px
+    }
+    
+    body {
+        background: url(images/bg.jpg) no-repeat center center fixed;
+        -webkit-background-size: cover;
+        -moz-background-size: cover;
+        -o-background-size: cover;
+        background-size: cover;
+    }
+    
+    .w3-bar-block .w3-bar-item {
+        padding: 20px
+    }
+    
+    .showmore {
+        font-size: 1.1em;
+        margin-top: 1.5em;
+    }
+    
+    .showmore .more,
+    .showmore.show .dots {
+        display: none
+    }
+    
+    .showmore.show .more {
+        display: inline
+    }
+    
+    .showmore a {
+        cursor: pointer;
+        display: block;
+        margin-top: 0.5em;
+        margin-bottom: 1em;
+        font-weight: bold;
+    }
+</style>
+
+<body class="w3-light-grey w3-content" style="max-width:1600px">
+
+    <head>
+        <!-- Sidebar (reveals when clicked on menu icon)-->
+        <nav class="w3-sidebar w3-black w3-animate-left w3-xxlarge" style="display:none;padding-top:150px;left:0;z-index:2" id="mySidebar">
+            <a href="javascript:void(0)" onclick="closeNav()" class="w3-button w3-black w3-xxxlarge w3-display-topleft" style="padding:0 12px;">
+                <i class="fa fa-remove"></i>
+                <div class="w3-bar-block w3-center">
+                    <a href="home.html" class="w3-bar-item w3-button w3-text-grey w3-hover-black" onclick="closeNav()">หน้าหลัก</a>
+                    <a href="story.html" class="w3-bar-item w3-button w3-text-grey w3-hover-black" onclick="closeNav()">เรื่องย่อ</a>
+                    <a href="char1.html" class="w3-bar-item w3-button w3-text-grey w3-hover-black" onclick="closeNav()">ตัวละคร</a>
+                    <a href="movie.html" class="w3-bar-item w3-button w3-text-grey w3-hover-black" onclick="closeNav()">ภาพยนต์</a>
+                    <a href="game/indexh.php" class="w3-bar-item w3-button w3-text-grey w3-hover-black" onclick="closeNav()">คำถาม</a>
+                    <a href="Webboard/webboard.php" class="w3-bar-item w3-button w3-text-grey w3-hover-black" onclick="closeNav()">บอร์ด</a>
+                </div>
+        </nav>
+
+        <!-- Top menu -->
+        <div class="w3-top">
+            <div class=" w3-xlarge" style="max-width:1200px;margin:auto">
+                <div class="w3-button w3-text-black w3-padding-16 " onclick="openNav()">☰</div>
+
+            </div>
+        </div>
+    </head>
+
+
+    <!-- !PAGE CONTENT! -->
+    <div class="w3-container" style="padding:128px 128px" id="team">
+
+        <!-- First Photo Grid-->
+
+        <h1 class="w3-jumbo w3-center"><b>Fantastic Beast Character</h1>
+        <div class="w3-row-padding w3-grayscale" style="margin-top:64px">
+            <div class="w3-col l3 m6 w3-margin-bottom">
+                <div class="w3-card">
+                    <img src="images/albus.jpg" alt="albus" style="width:100%">
+                    <div class="w3-black w3-opacity w3-hover-opacity-off w3-padding-large w3-round-large">
+                        <h3>อัลบัส ดัมเบิลดอร์ </h3>
+                        <p class="w3-opacity">จู๊ด ลอว์</p>
+                        <p class="showmore">อัลบัส ดัมเบิลดอร์ เป็นอาจารย์วิชาการป้องกันตัวจากศาสตร์มืดที่โรงเรียนคาถาพ่อมดแม่มดและเวทมนตร์ศาสตร์ฮ็อกวอร์ตส์ <span class="dots">...</span><span class="more"> 
+                                โดยนิวท์ สคามันเดอร์ก็เป็นอดีตนักเรียนคนหนึ่งซึ่งเคยเรียนกับเขาที่สถาบันแห่งนี้ นับแต่นั้นนิวท์ได้กลายเป็นเพื่อนและศิษย์รักที่เขาไว้วางใจ
+                                แม้ว่าดัมเบิลดอร์ผู้เฉียบแหลมไม่ได้รู้สึกผิดที่ใช้ประโยชน์จากนิวท์เพื่อการบรรลุเป้าหมายอันถูกต้อง 
+                                หลังจากดัมเบิลดอร์ได้รู้ว่ากรินเดลวัลด์หลบหนีจากการถูกคุมขัง 
+                                เขาก็แน่ใจว่ากรินเดลวัลด์จะต้องรีบสานต่อเจตนารมย์ของตนว่าด้วยการยกสถานะของพ่อมดแม่มดขึ้นมาปกครองเหล่ามักเกิ้ล
+                                แม้ดัมเบิลดอร์จะมีพลังอันน่าเกรงขาม แต่เขากลับไม่สามารถจัดการกับกรินเดลวัลด์ได้โดยตรงด้วยเหตุผลที่มีแต่เขาเท่านั้นที่รู้ 
+                                เขาจึงต้องยืมมือนิวท์มาช่วยขัดขวางแผนการของพ่อมดมืดรายนี้</span>
+                            <a>Show More</a>
+                          </p>
+
+                    </div>
+                </div>
+            </div>
+            <div class="w3-col l3 m6 w3-margin-bottom ">
+                <div class="w3-card">
+                    <img src="images/gellert.jpg" alt="gellert" style="width:100%">
+                    <div class="w3-black w3-opacity w3-hover-opacity-off w3-padding-large w3-round-large">
+                        <h3>เกลเลิร์ต กรินเดลวัลด์ </h3>
+                        <p class="w3-opacity">จอห์นนี่ เด็ปป์</p>
+                        <p class="showmore">เกลเลิร์ต กรินเดลวัลด์ เป็นพ่อมดมืดผู้ทรงพลัง มีเสน่ห์ดึงดูด และเจ้าเล่ห์ <span class="dots">...</span><span class="more"> 
+                                แต่ยังเป็นออบสคูเรียลที่ทรงพลังเป็นพิเศษด้วย โดยเท่าที่ทราบกันนั้นเขาเป็นออบสคูเรียลเพียงคนเดียวที่รอดชีวิตเลยวัยเด็กมาได้ เครเดนซ์เดินทางมายังปารีสเพื่อค้นหาแม่ที่แท้จริงด้วยหวังว่าจะได้รู้ตัวตนที่แท้จริงของตนเอง
+                                แม้มีความมั่นใจมากกว่าเมื่อตอนที่อยู่ภายใต้การปกครองของแมรี่ ลู แบร์โบน แม่เลี้ยงใจร้าย แต่ครีเดนซ์ก็ยังคงอ่อนแอและโดดเดี่ยว เขามีเพื่อนอยู่เพียงคนเดียวซึ่งเป็นมาเลดิคทัส อย่างไรก็ดีในตอนนี้เขาสามารถควบคุมออบสคูรัสของตัวเองได้โดยสมบูรณ์หลังจากพลังเวทมนตร์นี้ถูกเก็บกักไว้ในตัวเขามานานหลายปี
+                                เขาจึงกลายเป็นตัวอันตรายสำหรับบางฝ่ายและเป็นเครื่องมือที่มีศักยภาพสำหรับบางฝ่ายด้วย</span>
+                            <a>Show More</a>
+                          </p>
+                    </div>
+                </div>
+            </div>
+            <div class="w3-col l3 m6 w3-margin-bottom ">
+                <div class="w3-card">
+                    <img src="images/credence.jpg" alt="credence" style="width:100%">
+                    <div class="w3-black w3-opacity w3-hover-opacity-off w3-padding-large w3-round-large">
+                        <h3>ครีเดนซ์ แบร์โบน </h3>
+                        <p class="w3-opacity">เอซรา มิลเลอร์</p>
+                        <p class="showmore">ในอดีตครีเดนซ์ถูกมองว่าไม่มีพลังเวทมนตร์ ทว่าแท้จริงแล้วเขาไม่เพียงเป็นออบสคูเรียล <span class="dots">...</span><span class="more"> 
+                                โดยไม่แน่ว่าอย่างไหนมาก่อนมาหลัง แต่เขารู้ว่ากฎของโลกเวทมนตร์ทำให้ความสัมพันธ์ของทั้งสองเป็นสิ่งต้องห้าม แม้ว่าเจค็อบเองก็ปรารถนาที่จะได้อยู่กับควีนนี่เช่นกัน
+                                แต่เขาก็ไม่พอใจนักที่จู่ๆ เขาก็มาโผล่ที่อังกฤษโดยจำไม่ได้ว่าตัวเองมาได้อย่างไร แถมยังได้มารู้ว่าควีนนี่ใช้เวทมนตร์จัดการเรื่องนี้ด้วยตัวเอง ในเมื่อควีนนี่อ่านใจเขาได้ ความคิดในใจเขาก็เพียงพอแล้วที่จะทำให้ควีนนี่ต้องเสียน้ำตาแม้เขาจะไม่ได้พูดออกมาก็ตาม
+                                และเขาก็จำเป็นต้องขอความช่วยเหลือจากนิวท์ สคามันเดอร์ให้ออกตามหาเธอ แม้จะกังวลเรื่องควีนนี่ 
+                                แต่เจค็อบก็ยินดีที่ได้กลับมาพบเพื่อนอย่างนิวท์และร่วมการผจญภัยครั้งใหม่ในโลกเวทมนตร์ </span>
+                            <a>Show More</a>
+                          </p>
+                    </div>
+                </div>
+            </div>
+            <div class="w3-col l3 m6 w3-margin-bottom ">
+                <div class="w3-card">
+                    <img src="images/nagini.jpg" alt="nagini" style="width:100%">
+                    <div class="w3-black w3-opacity w3-hover-opacity-off w3-padding-large w3-round-large">
+                        <h3>นากินี</h3>
+                        <p class="w3-opacity">คลอเดีย คิม</p>
+                        <p class="showmore">นากินีเป็นมาเลดิคทัส หรือผู้ที่เลือดต้องคำสาปทำให้สุดท้ายเธอจะต้องกลายร่างเป็นสัตว์ร้ายอย่างถาวร<span class="dots">...</span><span class="more"> 
+                                เมื่อพบเธอครั้งแรก เธอเป็นสาวสวยดาวเด่นของคณะละครสัตว์อาร์เคนัส คณะละครสัตว์ในโลกเวทมนตร์ โดยพลังในการแปลงร่างของเธอถูกใช้ประโยชน์โดยสเคนเดอร์ผู้โหดร้ายซึ่งเป็นเจ้าของคณะละครสัตว์และผู้ควบคุมการแสดง
+                            แต่นากินีก็ได้ผูกมิตรกับเครเดนซ์ซึ่งมาทำงานเป็นคนงานในคณะละคร หลังจากทั้งสองได้หนีออกมาพร้อมกัน 
+                            นากินีก็กลายเป็นคนสนิทและเพื่อนร่วมทางของเครเดนซ์ในการค้นหาตัวตนของเขา</span>
+                            <a>Show More</a>
+                          </p>
+                        </p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Pagination -->
+
+    <div class="w3-center w3-padding-32">
+        <div class="w3-bar">
+            <a href="char1.html" class="w3-bar-item w3-button w3-hover-white">«</a>
+            <a href="char1.html" class="w3-bar-item  w3-button w3-hover-white">1</a>
+            <a href="char2.html" class="w3-bar-item w3-button w3-white">2</a>
+            <a href="char3.html" class="w3-bar-item w3-button w3-hover-black">»</a>
+        </div>
+    </div>
+    </div>
+    </div>
+ <!-- Footer -->
+<footer class="w3-container w3-padding-32  w3-center w3-text-white ">
+                <p>All rights reserved&copy;- WIZARD WORLD : <a href="about.html" target="_blank">THE GOD JBF</a></p>
+            </footer>
+      
+</body>
+<!-- read more-->
+<script>
+        document.querySelectorAll(".showmore").forEach(function (p) {
+   p.querySelector("a").addEventListener("click", function () {
+     p.classList.toggle("show");
+     this.textContent = p.classList.contains("show") ? "Show Less" : "Show More";
+   });
+ });
+         </script>
+<!-- Open and close sidebar -->
+<script>
+        function openNav() {
+            document.getElementById("mySidebar").style.width = "60%";
+            document.getElementById("mySidebar").style.display = "block";
+        }
+    
+        function closeNav() {
+            document.getElementById("mySidebar").style.display = "none";
+        }
+    </script>
+    
+</html>

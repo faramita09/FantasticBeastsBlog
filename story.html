@@ -1,0 +1,127 @@
+<!DOCTYPE html>
+<html>
+<title>Fantastic Beast Blog</title>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<LINK REL="SHORTCUT ICON" HREF="boo.png">
+<link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Raleway">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+<style>
+    body,
+    h1,
+    h5 {
+        font-family: "Raleway", sans-serif
+    }
+    
+    body,
+    html {
+        height: 100%
+    }
+    
+    .bgimg {
+        background-image: url('images/bg5.jpg');
+        min-height: 100%;
+        background-position: center;
+        background-size: cover;
+    }
+    
+    .w3-bar-block .w3-bar-item {
+        padding: 20px
+    }
+</style>
+
+<head>
+    <!-- Sidebar (reveals when clicked on menu icon)-->
+    <nav class="w3-sidebar w3-black w3-animate-left w3-xxlarge" style="display:none;padding-top:150px;left:0;z-index:2" id="mySidebar">
+        <a href="javascript:void(0)" onclick="closeNav()" class="w3-button w3-black w3-xxxlarge w3-display-topleft" style="padding:0 12px;">
+            <i class="fa fa-remove"></i>
+            <div class="w3-bar-block w3-center">
+                <a href="home.html" class="w3-bar-item w3-button w3-text-grey w3-hover-black" onclick="closeNav()">หน้าหลัก</a>
+                <a href="story.html" class="w3-bar-item w3-button w3-text-grey w3-hover-black" onclick="closeNav()">เรื่องย่อ</a>
+                <a href="char1.html" class="w3-bar-item w3-button w3-text-grey w3-hover-black" onclick="closeNav()">ตัวละคร</a>
+                <a href="movie.html" class="w3-bar-item w3-button w3-text-grey w3-hover-black" onclick="closeNav()">ภาพยนต์</a>
+                <a href="game/indexh.php" class="w3-bar-item w3-button w3-text-grey w3-hover-black" onclick="closeNav()">คำถาม</a>
+                <a href="webboard/webboard.php" class="w3-bar-item w3-button w3-text-grey w3-hover-black" onclick="closeNav()">บอร์ด</a>
+            </div>
+    </nav>
+
+    <!-- Top menu -->
+    <div class="w3-top">
+        <div class=" w3-xlarge" style="max-width:1200px;margin:auto">
+            <div class="w3-button w3-text-white w3-padding-16 " onclick="openNav()">☰</div>
+
+        </div>
+    </div>
+</head>
+
+<!-- content -->
+
+<body>
+    <div class="bgimg w3-display-container w3-text-white">
+        <div class="w3-display-middle w3-jumbo">
+            <p>Fantastic Beast Story</p>
+        </div>
+    </div>
+
+    <!-- content-->
+    <div class="w3-container w3-dark-grey  ">
+        <div class="w3-center w3-text-white ">
+            <br>
+            <h3>เนื้อเรื่อง </h3>
+            <hr class="w3-border-white" style="margin:auto;width:40% ">
+        </div>
+
+        <div class="w3-content" style="max-width:900px">
+            <br>
+            <p>&nbsp;&nbsp;&nbsp;&nbsp;ที่ยุโรป เกิดเหตุสังหารมือปราบมารจำนวนมาก สื่อของชุมชนผู้วิเศษได้รายงานถึงเหตุการณ์ดังกล่าวและเหตุโจมตีอื่น ๆ โดยเป็นฝีมือของเกลเลิร์ต กรินเดลวัลด์ พ่อมดฝ่ายมืด</p>
+            <p>&nbsp;&nbsp;&nbsp;&nbsp;ในปี ค.ศ. 1926 นิวท์ สคามันเดอร์ นักสัตว์วิเศษวิทยาชาวอังกฤษเดินทางมาที่สหรัฐอเมริกา เพื่อไปยังรัฐแอริโซนา เขาพบกับแมรี ลู แบร์โบน มักเกิ้ลผู้เป็นหัวหน้ากลุ่มการกุศลเซเลมที่สองที่เชื่อว่าผู้วิเศษมีอยู่จริงและเป็นอันตราย
+                ระหว่างนั้น นิฟเฟลอร์ สัตว์วิเศษในกระเป๋าของนิวท์ได้หลุดออกมา ทำให้เขาต้องตามจับแต่พลาดสลับกระเป๋ากับเจคอบ โควัลสกี มักเกิ้ลผู้มีความใฝ่ฝันอยากเปิดร้านขายขนมปัง นิวท์ถูกทินา โกลด์สตีน อดีตมือปราบมารที่เห็นเหตุการณ์ทั้งหมดจับตัวและพาไปยังสภาเวทมนตร์แห่งสหรัฐอเมริกา
+                (MACUSA) ขณะเดียวกัน เจคอบที่ถือกระเป๋าของนิวท์ไปถูกเมิร์ตแลป สัตว์วิเศษชนิดหนึ่งในกระเป๋าทำร้ายและทำให้สัตว์วิเศษตัวอื่น ๆ หลุดออกมา</p>
+            <p>&nbsp;&nbsp;&nbsp;&nbsp;นิวท์และทินาตามมาพบเจคอบและพาไปที่อะพาร์ตเมนต์ของทินาที่อาศัยอยู่กับควีนนี โกลด์สตีน น้องสาว นิวท์พาเจคอบเข้าไปในกระเป๋าซึ่งภายในมีสัตว์วิเศษจำนวนมาก หนึ่งในนั้นคือออบสคูรัส พลังด้านมืดซึ่งสถิตอยู่ในตัวผู้วิเศษที่เป็นเด็กที่พยายามปิดกั้นพลังของตัวเอง
+                นิวท์และเจคอบช่วยกันจับสัตว์วิเศษที่หนีออกจากกระเป๋าได้หลายตัวก่อนจะถูกเจ้าหน้าที่ของ MACUSA จับตัวได้เพราะเชื่อว่ามีสัตว์วิเศษตัวหนึ่งฆ่าวุฒิสมาชิกเฮนรี ชอว์ จูเนียร์ MACUSA มีความเห็นให้ทำลายกระเป๋าของนิวท์และลบความจำของเจคอบ หลังถูกเพอร์ซิวัล
+                เกรฟส์ ผู้อำนวยการความปลอดภัยด้านเวทมนตร์ไต่สวน นิวท์และทินาถูกตัดสินประหารชีวิตเนื่องจากเชื่อว่าสนับสนุนกรินเดลวัลด์ แต่นิวท์สะเดาะห์กุญแจมือได้และพาทินาหลบหนี ทั้งสองพบกับควีนนีและเจคอบที่ตามมาช่วย ทั้งสี่คนไปที่บาร์เพื่อพบนาร์แล็กเพื่อหาที่อยู่ของสัตว์วิเศษตัวสุดท้ายที่ยังไม่ถูกจับ
+                ก่อนที่ทั้งสี่คนจะจับสัตว์วิเศษตัวนั้นได้สำเร็จ
+            </p>
+            <p>&nbsp;&nbsp;&nbsp;&nbsp;นิวท์และทินาตามมาพบเจคอบและพาไปที่อะพาร์ตเมนต์ของทินาที่อาศัยอยู่กับควีนนี โกลด์สตีน น้องสาว นิวท์พาเจคอบเข้าไปในกระเป๋าซึ่งภายในมีสัตว์วิเศษจำนวนมาก หนึ่งในนั้นคือออบสคูรัส พลังด้านมืดซึ่งสถิตอยู่ในตัวผู้วิเศษที่เป็นเด็กที่พยายามปิดกั้นพลังของตัวเอง
+                นิวท์และเจคอบช่วยกันจับสัตว์วิเศษที่หนีออกจากกระเป๋าได้หลายตัวก่อนจะถูกเจ้าหน้าที่ของ MACUSA จับตัวได้เพราะเชื่อว่ามีสัตว์วิเศษตัวหนึ่งฆ่าวุฒิสมาชิกเฮนรี ชอว์ จูเนียร์ MACUSA มีความเห็นให้ทำลายกระเป๋าของนิวท์และลบความจำของเจคอบ หลังถูกเพอร์ซิวัล
+                เกรฟส์ ผู้อำนวยการความปลอดภัยด้านเวทมนตร์ไต่สวน นิวท์และทินาถูกตัดสินประหารชีวิตเนื่องจากเชื่อว่าสนับสนุนกรินเดลวัลด์ แต่นิวท์สะเดาะห์กุญแจมือได้และพาทินาหลบหนี ทั้งสองพบกับควีนนีและเจคอบที่ตามมาช่วย ทั้งสี่คนไปที่บาร์เพื่อพบนาร์แล็กเพื่อหาที่อยู่ของสัตว์วิเศษตัวสุดท้ายที่ยังไม่ถูกจับ
+                ก่อนที่ทั้งสี่คนจะจับสัตว์วิเศษตัวนั้นได้สำเร็จ
+            </p>
+            <p>&nbsp;&nbsp;&nbsp;&nbsp;นิวท์ตามไปพบครีเดนซ์ที่หลบอยู่ใต้สถานีรถไฟใต้ดินแต่ถูกเกรฟส์ทำร้าย ทินาตามมาช่วยนิวท์และเกลี้ยกล่อมให้ครีเดนซ์สงบสติอารมณ์ มือปราบมารของ MACUSA ตามมาถึงและทำลายออบสคูรัส แต่มีชิ้นส่วนหนึ่งหลุดรอดไปได้ เกรฟส์เปิดเผยว่าตนต้องการใช้ออบสคูรัสเพื่อเปิดโปงชุมชนผู้วิเศษ
+                เขาโจมตีมือปราบมารหลายคนก่อนจะถูกจับโดยสัตว์วิเศษของนิวท์ เกรฟส์ถูกเปิดโปงว่าเป็นกรินเดลวัลด์ปลอมตัวมาและถูกคุมตัวออกไป</p>
+            <p>&nbsp;&nbsp;&nbsp;&nbsp;เซราฟินา พิกเควอรี ประธาน MACUSA กล่าวว่ามักเกิ้ลรู้ถึงชุมชนผู้วิเศษแล้ว แต่นิวท์เสนอให้ใช้ธันเดอร์เบิร์ด สัตว์วิเศษของเขาสร้างฝนเพื่อลบความจำมักเกิ้ลทุกคนในเมือง พร้อม ๆ กับที่ MACUSA ใช้คาถาฟื้นฟูเมืองที่เสียหาย ควีนนีจูบลาเจคอบที่ออกไปยืนตากฝนเพื่อให้ตัวเองถูกลบความจำ
+                ด้านนิวท์กลับไปอังกฤษเพื่อเขียนหนังสือสัตว์วิเศษให้เสร็จ แต่สัญญากับทินาว่าจะกลับมาหา โดยก่อนจะกลับอังกฤษ นิวท์สลับกระเป๋ากับเจคอบเพื่อให้เขามีทุนไปเปิดร้านขายขนมปัง ภาพยนตร์จบลงเมื่อควีนนีมาหาเจคอบที่ร้าน
+            </p>
+
+            <hr class="w3-border-white " style="margin:auto;width:70% ">
+
+            <div class="w3-panel w3-leftbar w3-light-grey">
+                <h5>"Magical beasts are terrorizing No-Majs. When No-Majs are afraid they attack. Contain this or it will mean war."</h5>
+                <p class="w3-text-grey">"สัตว์วิเศษกำลังคุกคามพวกโนแมจ เวลาที่พวกโนแมจรู้สึกกลัวพวกเขาจะจู่โจม ระงับสถานการณ์ให้ได้ ไม่งั้นจะกลายเป็นสงครามแน่ๆ."</p>
+                <p> - เซราฟิน่า พิคเคอรี่ -</p><br>
+            </div>
+            <img src="images/3.jpg" style="width:100%;max-width:1000px;margin-top:32px;">
+
+        </div>
+    </div>
+
+    <!-- Footer -->
+    <footer class="w3-container w3-dark-grey w3-padding-32 w3-center">
+        <p>All rights reserved&copy;- WIZARD WORLD : <a href="about.html" target="_blank">THE GOD JBF</a></p>
+    </footer>
+</body>
+
+<!-- Open and close sidebar -->
+<script>
+    function openNav() {
+        document.getElementById("mySidebar").style.width = "60%";
+        document.getElementById("mySidebar").style.display = "block";
+    }
+
+    function closeNav() {
+        document.getElementById("mySidebar").style.display = "none";
+    }
+</script>
+
+</html>
