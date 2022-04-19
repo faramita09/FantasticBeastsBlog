@@ -1,0 +1,19 @@
+﻿ส่วนที่ 1 โครงสร้างไฟล์ในโฟลเดอร์โปรเจ็กต์
+โดยจะแบ่งเป็น 3 โฟลเดอร์ โดยจะมีหน้า home.html, about.html
+char1.html, char2.html, char3.html, movie.html, story.html ซึ่งอยู่นอกโฟลเดอร์
+โฟลเดอร์ที่ 1 คือ game โดยจะมีหน้าหลัก คือ imab.html และ indexh.html ซึ่งแบ่งเป็น 2 โฟลเดอร์ ได้แก่
+ - โฟลเดอร์ imgmab
+โดยจะมีหน้า habit1.html, habit2.html,habit3.html,habit4.html,habit5.html, และ habit6.html 
+และยังมีไฟล์รูปภาพสำหรับเกมส์
+ - โฟลเดอร์ quizweb
+โดยจะมีหน้าหลักคือ indexq.html
+โฟลเดอร์ที่ 2 คือ images เป็นไฟล์ที่เก็บรูปภาพทั้งหมด
+โฟลเดอร์ที่ 3 คือ Webboard 
+โดยจะมีหน้า  auth.php, db.php, index.php, login.php, logout.php, newquestion.php, quiz.php, register.php,
+viewwebboard.php และ webboard.php
+
+ส่วนที่ 2 การติดตั้งโครงงาน 
+2.1 โปรแกรมที่จำเป็น  XAMMP 
+2.2 การติดตั้งโครงงาน นำไฟล์ที่อยู่ในโฟลเดอร์ source มาจัดเก็บไว้ใน root document ของเว็บเซิร์ฟเวอร์
+2.3 นำสคริปต์ mydb.sql สำหรับสร้างฐานข้อมูลรันใน PHPMyAdmin เพื่อสร้างฐานข้อมูลและตารางที่เกี่ยวข้อง
+2.4 ถ้ามี database ชื่อ mydb อยู่แล้วให้ติดตั้ง project_user.sql , quiz.sql, reply.sql, webboard.sql, history_quiz.sql
