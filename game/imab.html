@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<meta charset="UTF-8">
+<LINK REL="SHORTCUT ICON" HREF="../boo.png">
+<link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+<html>
+
+<head>
+    <title>ทายนิสัยจากตัวละครที่เห็น</title>
+    <style>
+        body {
+            font-size: 20px;
+            font-family: Bai Jamjuree;
+        }
+        
+        .w3-bar-block .w3-bar-item {
+            padding: 20px
+        }
+    </style>
+
+    <body style="background-color:#838383;">
+
+        <head>
+            <!-- Sidebar (reveals when clicked on menu icon)-->
+            <nav class="w3-sidebar w3-black w3-animate-left w3-xxlarge" style="display:none;padding-top:150px;left:0;z-index:2" id="mySidebar">
+                <a href="javascript:void(0)" onclick="closeNav()" class="w3-button w3-black w3-xxxlarge w3-display-topleft" style="padding:0 12px;">
+                    <i class="fa fa-remove"></i>
+                    <div class="w3-bar-block w3-center">
+                        <a href="../home.html" class="w3-bar-item w3-button w3-text-grey w3-hover-black" onclick="closeNav()">หน้าหลัก</a>
+                        <a href="../story.html" class="w3-bar-item w3-button w3-text-grey w3-hover-black" onclick="closeNav()">เรื่องย่อ</a>
+                        <a href="../char1.html" class="w3-bar-item w3-button w3-text-grey w3-hover-black" onclick="closeNav()">ตัวละคร</a>
+                        <a href="../movie.html" class="w3-bar-item w3-button w3-text-grey w3-hover-black" onclick="closeNav()">ภาพยนต์</a>
+                        <a href="../game/indexh.php " class="w3-bar-item w3-button w3-text-grey w3-hover-black" onclick="closeNav()">คำถาม</a>
+                        <a href="../webboard/webboard.php" class="w3-bar-item w3-button w3-text-grey w3-hover-black" onclick="closeNav()">บอร์ด</a>
+                    </div>
+            </nav>
+
+            <!-- Top menu -->
+            <div class="w3-top">
+                <div class=" w3-xlarge" style="max-width:1200px;margin:auto">
+                    <div class="w3-button w3-text-black w3-padding-16 " onclick="openNav()">☰</div>
+
+                </div>
+            </div>
+        </head>
+</head>
+<br><br>
+<div align="center"><b style="font-size:50px; "> คุณเห็นใครเป็นคนแรกในภาพด้านล่างนี้? </b><br><br>
+    <img src="quizweb/imabnum.jpg" usemap="#Map" />
+    <map name="Map" id="Map">
+		<area title="ธีซีอุส สคามันเดอร์" href="imgmab/habit1.html" shape="poly" coords="644,1,959,2,958,271,644,272" /> 
+		<area  title="ลีตา เลสแตรงจ์" href="imgmab/habit2.html" shape="poly" coords="0,272,328,274,329,543,0,543" />
+        <area  title="นิวท์ สคามันเดอร์" href="imgmab/habit3.html" shape="poly" coords="0,2,327,2,328,270,0,270" /> 
+        <area  title="เจคอบ โควัลสกี้" href="imgmab/habit4.html" shape="poly" coords="328,0,644,2,643,270,330,270" />
+        <area  title="ทีน่า โกลด์สตีน" href="imgmab/habit5.html" shape="poly" coords="330,274,643,274,644,543,330,543" />
+        <area  title="นากินี" href="imgmab/habit6.html" shape="poly" coords="644,273,959,272,959,540,644,541" />
+  
+	</map>
+</div>
+</body>
+<!-- Open and close sidebar -->
+<script>
+    function openNav() {
+        document.getElementById("mySidebar").style.width = "60%";
+        document.getElementById("mySidebar").style.display = "block";
+    }
+
+    function closeNav() {
+        document.getElementById("mySidebar").style.display = "none";
+    }
+</script>
+
+</html>
